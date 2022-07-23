@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% block content %} 
+{% from "showlinks.html" import show_links %}
+
+      <div class="parent">
+        <div class="child child3">
+           {{ show_links() }}
+        </div>
+
+        <div class="child child4">
+          <h3 class="m-2"> Welcome to Employee Management System</h3>
+      </div>
+      </div>
+
+{% endblock %}
