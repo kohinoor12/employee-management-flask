@@ -9,7 +9,7 @@ def connect_to_database():
 
 def get_database():
     if not hasattr(g, 'employeemanagement.db'):
-        g.crudapplication_db = connect_to_database()
-    return g.crudapplication_db
+        g.employeemanagement_db = connect_to_database()
+    return g.employeemanagement_db
 
 
